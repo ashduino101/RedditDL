@@ -21,9 +21,9 @@ import webbrowser
 import stat
 from inspect import signature
 import shutil
+from types import SimpleNamespace
 
 # 3rd-party
-from types import SimpleNamespace
 import cv2
 import moviepy.editor
 import pygame
