@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="{{ url_for('static', filename='lib/jquery.min.js') }}" type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='js/posts.js') }}" type="text/javascript"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>Your Saved Posts</h1>
+        <div id="posts">
+            <ul id="post-list">
+
+            </ul>
+        </div>
+    </body>
+</html>
